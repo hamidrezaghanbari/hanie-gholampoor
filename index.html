@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul id="left-nav">
+                <li>
+                    <div id="nav-square"></div>
+                </li>
+                <li id="logo-nav"><a href="#">Logo</a></li>
+                <li id="home-nav"><a href="#">Home</a></li>
+                <li id="wallet-nav"><a href="wallet.html">Wallet</a></li>
+                <li id="offer-nav"><a href="#">Create an Offer</a></li>
+                <li id="faq-nav"><a href="#">FAQ</a></li>
+            </ul>
+
+            <ul id="right-nav">
+                <li id="login-nav"><a href="#">Log in</a></li>
+                <li id="sign-up-nav">
+                    <div id="sign-up-div">
+                        <img width="18px" height="8px" src="./images/top-light.png" alt="">
+                        <a href="#">Sign up</a>
+                        <img width="18px" height="8px" src="./images/bottom-light.png" alt="">
+                    </div>
+                </li>
+                <li id="lang-nav">
+                    <div id="lang-select">
+                        <select name="slct" id="slct">
+                            <option value="1">English</option>
+                            <option value="2">France</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <div id="map-holder">
+                <img width="610px" src="./images/map.png" alt="">
+            </div>
+
+            <div id="left-header">
+                <h1>choose your own digital currency</h1>
+                <p>a place for buy or sell</p>
+
+                <div id="select-section">
+                    <div class="select-holder">
+                        <select class="select" name="" id="">
+                            <option value="">Iranian Rial</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                        </select>
+                    </div>
+
+
+                    <div id="button-group-transaction">
+                        <button class="btn" id="buy-btn">buy</button>
+                        <button class="btn" id="sell-btn">sell</button>
+                    </div>
+
+                    <div class="select-holder">
+                        <select class="select" name="" id="">
+                            <option value="">Bitcoin</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+                <h4>Buy Bitcoin With Iranian Rial</h4>
+            </div>
+        </header>
+
+        <section class="table-wrapper">
+            <div class="table-holder">
+                <table class="table" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Trader</th>
+                            <th>Payment Method</th>
+                            <th>Price</th>
+                            <th>Limit</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-green.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Buy</button></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-red.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Buy</button></td>
+
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-red.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Buy</button></td>
+
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-green.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Buy</button></td>
+
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-red.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Buy</button></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+                <a class="more">More ...</a>
+            </div>
+
+            <div class="right-pane">
+                <div class="filter-one">
+                    <p>Price range</p>
+                    <input class="slider" type="range">
+                </div>
+
+                <div class="filter-two">
+                    <p>Sort by</p>
+                    <div class="checkbox-holder">
+                        <label class="checkbox-container">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                            Best Buyer
+                        </label>
+                    </div>
+
+                    <div class="checkbox-holder">
+                        <p>From High</p>
+                        <img class="changer" src="./images/changer.png">
+                        <p>To Low</p>
+                    </div>
+                </div>
+
+                <div class="filter-three">
+                    <p>Country</p>
+                    <div class="select-holder">
+                        <select class="select" name="" id="">
+                            <option value="">Iran</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="middle-holder">
+            <h4>Sell Bitcoin with Iranian Rial</h4>
+        </div>
+
+        <section class="table-wrapper">
+            <div class="table-holder">
+                <table class="table" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Trader</th>
+                            <th>Payment Method</th>
+                            <th>Price</th>
+                            <th>Limit</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-green.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Sell</button></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-red.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Sell</button></td>
+
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-red.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Sell</button></td>
+
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-green.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Sell</button></td>
+
+                        </tr>
+                        <tr>
+                            <td class="col-1-title">hanie.gh
+                                <img src="./images/circule-red.png" />
+                            </td>
+                            <td>deposit to account</td>
+                            <td class="col-price">12.979.00</td>
+                            <td>10.000.000-20.000.000</td>
+                            <td><button class="table-buy-button">Sell</button></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+                <a class="more">More ...</a>
+            </div>
+
+            <div class="right-pane">
+                <div class="filter-one">
+                    <p>Price range</p>
+                    <input class="slider" type="range">
+                </div>
+
+                <div class="filter-two">
+                    <p>Sort by</p>
+                    <div class="checkbox-holder">
+                        <label class="checkbox-container">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                            Best Seller
+                        </label>
+                    </div>
+
+                    <div class="checkbox-holder">
+                        <p>From High</p>
+                        <img class="changer" src="./images/changer.png">
+                        <p>To Low</p>
+                    </div>
+                </div>
+
+                <div class="filter-three">
+                    <p>Country</p>
+                    <div class="select-holder">
+                        <select class="select" name="" id="">
+                            <option value="">Iran</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                            <option value="">one</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-section">
+                <img width="50px" height="50px" src="./images/tweeter.png">
+                <img width="50px" height="50px" src="./images/facebook.png">
+                <img width="50px" height="50px" src="./images/linkdin.png">
+            </div>
+
+            <p>a Marketplace for selling and buying Bitcoin</p>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
